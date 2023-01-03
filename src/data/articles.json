@@ -1,0 +1,40 @@
+{
+  "articles": [
+    {
+      "type": "main",
+      "page": "home",
+      "cover": "/portfolio/images/KeeperApp.jpg",
+      "title": "Note Keeper",
+      "description": "Dynamic note keeping application created using React hooks to post notes to a list which is displayed on a board.",
+      "url": "https://github.com/QLambkin/KeeperApp",
+      "date": "04/20/2023"
+    },
+    {
+      "type": "featured",
+      "page": "home",
+      "cover": "/portfolio/images/KeeperApp.jpg",
+      "title": "Note Keeper",
+      "description": "Dynamic note keeping application created using React hooks to post notes to a list which is displayed on a board.",
+      "url": "https://github.com/QLambkin/KeeperApp",
+      "date": "04/20/2023"
+    },
+    {
+      "type": "standard",
+      "page": "home",
+      "cover": "/portfolio/images/KeeperApp.jpg",
+      "title": "Note Keeper",
+      "description": "Dynamic note keeping application created using React hooks to post notes to a list which is displayed on a board.",
+      "url": "https://github.com/QLambkin/KeeperApp",
+      "date": "04/20/2023"
+    },
+    {
+      "type": "carousel",
+      "page": "home",
+      "cover": "/portfolio/images/KeeperApp.jpg",
+      "title": "Note Keeper",
+      "description": "Dynamic note keeping application created using React hooks to post notes to a list which is displayed on a board.",
+      "url": "https://github.com/QLambkin/KeeperApp",
+      "date": "04/20/2023"
+    }
+  ]
+}

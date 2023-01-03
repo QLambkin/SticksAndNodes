@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 .home-page {
   .text-zone {
     position: absolute;
@@ -15,29 +17,6 @@
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
-
-    &:before {
-      content: '<h1>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -40px;
-      left: -20px;
-      opacity: 0.6;
-    }
-
-    &:after {
-      content: '</h1>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -30px;
-      margin-left: -20px;
-      // animation: fadeIn 1s 1.7s backwards;
-      opacity: 0.6;
-    }
 
     img {
       margin-left: 20px;
@@ -58,28 +37,6 @@
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
-
-    &:before {
-      content: '<p>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -20px;
-      left: -20px;
-      opacity: 0.6;
-    }
-
-    &:after {
-      content: '</p>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-left: -20px;
-      // animation: fadeIn 1s 1.7s backwards;
-      opacity: 0.6;
-    }
   }
 
   * {
@@ -134,7 +91,6 @@
   }
 
   .btn-flex:hover {
-    // background: #115173;
     font-weight: 700;
     letter-spacing: 3px;
 

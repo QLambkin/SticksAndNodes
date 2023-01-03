@@ -1,35 +1,136 @@
-$primary-color: #ffd700;
+$primary-color: rgb(255, 255, 0); // Needed for loader
 
+// @import '~bootstrap/scss/bootstrap';
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
 
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
-  // font-weight: normal;
-  // font-style: normal;
+.app {
+  background-color: #141414;
 }
 
-@font-face {
-  font-family: 'La Belle Aurore';
-  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2'),
-    url('./assets/fonts/LaBelleAurore.woff') format('woff');
-  // font-weight: normal;
-  // font-style: normal;
+// --------------------------------------------------- Body -------------------------------------------------------------- //
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
+  display: block;
 }
 
-@font-face {
-  font-family: 'Coolvetica';
-  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2'),
-    url('./assets/fonts/CoolveticaRg-Regular.woff') format('woff');
-  // font-weight: normal;
-  // font-style: normal;
+// --------------------------------------------------- NavBar -------------------------------------------------------------- //
+
+.navbar {
+  background: #141414;
+  font-size: 20px;
 }
 
-input,
-textarea {
-  font-family: 'Helvetica Neue', sans-serif;
+.logo {
+  width: 50px;
+  height: auto;
 }
+
+// --------------------------------------------------- Content -------------------------------------------------------------- //
+
+.content {
+  opacity: 0;
+  transform-style: preserve-3d;
+  animation: fadeInUp 1s 1s;
+  animation-fill-mode: forwards;
+}
+
+// --------------------------------------------------- Blog Cards -------------------------------------------------------------- //
+
+.blog-card {
+  background-color: #222222;
+  color: #eeeeee;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.blog-card:hover {
+  // opacity: 1;
+  background-color: #222831;
+}
+
+.blog-card-body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+}
+
+.blog-card-title {
+  font-size: 20px;
+}
+
+.blog-card-text {
+  font-size: 10px;
+}
+
+.blog-card-footer {
+  font-size: 10px;
+  padding-top: 10px;
+  color: #bbbbbb;
+}
+
+/********** Big Cards **********/
+.big-blog-card-image {
+  background-color: #00adb5;
+  text-align: center;
+
+  img {
+    max-width: 60%;
+  }
+}
+
+.big-blog-card-body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+}
+
+.big-blog-card-title {
+  font-size: 40px;
+}
+
+.big-blog-card-text {
+  font-size: 20px;
+}
+
+// --------------------------------------------------- Home Layout -------------------------------------------------------------- //
+
+.homepage {
+  background-color: #222222;
+}
+
+.home-grid-container {
+  display: grid;
+  grid-template-areas: 'big-card big-card big-card featured-section featured-section';
+}
+
+.big-card {
+  grid-area: big-card;
+}
+
+.featured-section {
+  grid-area: featured-section;
+}
+
+// --------------------------------------------------- Music Layout -------------------------------------------------------------- //
+
+// --------------------------------------------------- Technology Layout -------------------------------------------------------------- //
+
+// --------------------------------------------------- Arts Layout -------------------------------------------------------------- //
+
+// --------------------------------------------------- Featured Section -------------------------------------------------------------- //
+
+.featured-section-header {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #00adb5;
+}
+
+.featured-section-card-wrapper
+
+// --------------------------------------------------- Loader -------------------------------------------------------------- //
 
 .loader-hidden {
   display: none;

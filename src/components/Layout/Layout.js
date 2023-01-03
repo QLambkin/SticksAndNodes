@@ -1,25 +1,16 @@
 import { Outlet } from 'react-router-dom'
-import Sidebar from '../Sidebar/Sidebar'
-import './Layout.scss'
+import '../../App.scss'
+import Footer from './Footer'
+import NavBar from './NavBar.js'
 
 const Layout = () => {
   return (
-    <div className="App">
-      <Sidebar />
-      <div className="page">
-        <span className="tags top-tags">
-          <span className="html-tag">&lt;html&gt;</span>
-          <br />
-          &lt;body&gt;
-        </span>
+    <div className="app">
+      <NavBar />
+      <div className="content">
         <Outlet />
-
-        <span className="tags bottom-tags">
-          &lt;/body&gt;
-          <br />
-          <span className="html-tag">&lt;/html&gt;</span>
-        </span>
       </div>
+      <Footer />
     </div>
   )
 }
