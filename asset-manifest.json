@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.37816cc5.css",
-    "main.js": "/static/js/main.e1299cb3.js",
-    "static/media/Q-logo.svg": "/static/media/Q-logo.098d9bdab233d56634493991833621cd.svg",
-    "index.html": "/index.html",
-    "main.37816cc5.css.map": "/static/css/main.37816cc5.css.map",
-    "main.e1299cb3.js.map": "/static/js/main.e1299cb3.js.map"
+    "main.css": "/TechBlog/static/css/main.37816cc5.css",
+    "main.js": "/TechBlog/static/js/main.a30cd107.js",
+    "static/media/Q-logo.svg": "/TechBlog/static/media/Q-logo.098d9bdab233d56634493991833621cd.svg",
+    "index.html": "/TechBlog/index.html",
+    "main.37816cc5.css.map": "/TechBlog/static/css/main.37816cc5.css.map",
+    "main.a30cd107.js.map": "/TechBlog/static/js/main.a30cd107.js.map"
   },
   "entrypoints": [
     "static/css/main.37816cc5.css",
-    "static/js/main.e1299cb3.js"
+    "static/js/main.a30cd107.js"
   ]
 }
