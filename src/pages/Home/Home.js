@@ -4,7 +4,6 @@ import { Col, Container, Row } from 'react-bootstrap'
 import BlogCard from '../../components/BlogCard'
 import CardCarousel from '../../components/CardCarousel'
 import FeaturedSection from '../../components/FeaturedSection'
-// import Articles from '../../data/articles.json'
 
 const Home = () => {
 

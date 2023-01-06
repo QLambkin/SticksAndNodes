@@ -1,6 +1,6 @@
 {
-  "name": "current-portfolio",
-  "homepage": "https://qlambkin.github.io/TechBlog/",
+  "name": "tech-blog",
+  "homepage": "https://qlambkin.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
