@@ -2,6 +2,10 @@
   "name": "tech-blog",
   "version": "0.1.0",
   "private": false,
+  "main": "index.js",
+  "engines": {
+    "node": "14.15.0"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
@@ -29,7 +33,6 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -53,6 +56,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "nodemon": "^2.0.20"
   }
 }
