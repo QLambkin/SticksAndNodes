@@ -6,7 +6,6 @@ import CardCarousel from '../../components/CardCarousel'
 import FeaturedSection from '../../components/FeaturedSection'
 
 const Home = () => {
-
   return (
     <>
       <div className="homepage">

@@ -6,8 +6,8 @@ const FeaturedCard = () => {
       <div className="blog-card-body">
         <div className="blog-card-title">Card title</div>
         <div className="blog-card-text">
-          This is a longer card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
+          This is a smaller card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit smaller.
         </div>
         <div className="blog-card-footer">Matt Kozak | 4/20/2022</div>
       </div>
