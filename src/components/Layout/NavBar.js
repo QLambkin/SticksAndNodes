@@ -12,7 +12,7 @@ const NavBar = () => {
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img className="logo" src={LogoQ} alt="Logo" />
-          uentin presents: Sticks and Nodes
+          uentin presents: Sticks and Nodes 
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
