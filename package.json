@@ -2,7 +2,6 @@
   "name": "tech-blog",
   "version": "0.1.0",
   "private": false,
-  "main": "index.js",
   "homepage": "https://qlambkin.github.io/SticksAndNodes/",
   "engines": {
     "node": "14.15.0"
